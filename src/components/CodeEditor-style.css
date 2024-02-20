@@ -1,0 +1,70 @@
+.container-code{
+  width: 100%;
+  height: 100vh;
+  padding: 1px 1px 0px 1px;
+  display: flex;
+  background-color: #000000;
+  border-top: 2px solid rgb(91, 91, 91);
+}
+.right, .left{
+  flex-basis: 50%;
+}
+.right{
+  padding-left: 15px;
+}
+
+.left span{
+  background-color: #1D1E22;
+  padding: 3px;
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  border-top: 3.5px solid #34363E;
+}
+textarea{
+  width: 100%;
+  height: 27%;
+  background: #1D1E22;
+  color: #ffffff;
+  padding: 6px 35px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  resize: vertical;
+  z-index: 0;
+}
+iframe{
+  width: 100%;
+  height: 90vh;
+  background: #ffffff;
+  outline: none;
+  border: none;
+}
+
+label i{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.fa-brands {
+  font-size: 1.25em;
+}
+.left .fa-html5{
+  color: #DD4B25;
+}
+.left .fa-css3-alt{
+  color: #196FB4;
+}
+.left .fa-js{
+  color: #F7CF00;
+}
+
+.container-code label{
+  display: block;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  background: #000;
+  height: 30px;
+  font-weight: 600;
+  color: #aaaebc;
+}
+
